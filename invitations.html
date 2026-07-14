@@ -1,1 +1,386 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Каталог приглашений — Mosdecor</title>
+  <meta
+    name="description"
+    content="Каталог электронных свадебных приглашений Mosdecor."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="catalog-page">
+
+  <header class="catalog-header">
+    <a href="index.html" class="catalog-logo">
+      Mosdecor
+      <span>декор и спецэффекты</span>
+    </a>
+
+    <a href="index.html" class="catalog-back">
+      ← На главную
+    </a>
+  </header>
+
+  <main>
+
+    <section class="catalog-hero">
+      <p class="eyebrow">электронные приглашения</p>
+
+      <h1>Выберите свой шаблон</h1>
+
+      <p class="catalog-lead">
+        Готовые свадебные сайты с музыкой, таймером,
+        программой дня, картой и анкетой для гостей.
+      </p>
+
+      <div class="catalog-benefits">
+        <span>Адаптация под телефон</span>
+        <span>Готовность от 1 дня</span>
+        <span>Индивидуальные данные</span>
+      </div>
+    </section>
+
+    <section class="catalog-section">
+
+      <div class="catalog-toolbar">
+
+        <div class="catalog-filters">
+          <button class="filter-btn active" data-filter="all">
+            Все
+          </button>
+
+          <button class="filter-btn" data-filter="light">
+            Светлые
+          </button>
+
+          <button class="filter-btn" data-filter="dark">
+            Тёмные
+          </button>
+
+          <button class="filter-btn" data-filter="minimal">
+            Минимализм
+          </button>
+
+          <button class="filter-btn" data-filter="luxury">
+            Luxury
+          </button>
+        </div>
+
+        <input
+          type="search"
+          id="catalogSearch"
+          class="catalog-search"
+          placeholder="Найти шаблон"
+        >
+
+      </div>
+
+      <div class="templates-grid">
+
+        <article
+          class="template-card"
+          data-category="light minimal"
+          data-title="Нежный минимализм"
+        >
+          <div class="template-preview">
+            <img
+              src="images/invite-1.jpg"
+              alt="Шаблон свадебного приглашения"
+            >
+
+            <span class="template-badge">
+              Хит
+            </span>
+          </div>
+
+          <div class="template-content">
+            <p class="template-style">
+              Светлый · Минимализм
+            </p>
+
+            <h2>Нежный минимализм</h2>
+
+            <p class="template-description">
+              Светлый дизайн с крупной типографикой,
+              фотографиями пары и плавной анимацией.
+            </p>
+
+            <ul class="template-features">
+              <li>Таймер до свадьбы</li>
+              <li>Музыка</li>
+              <li>Программа дня</li>
+              <li>Анкета гостей</li>
+            </ul>
+
+            <div class="template-bottom">
+              <div class="template-price">
+                <span>Стоимость</span>
+                <b>от 2 000 ₽</b>
+              </div>
+
+              <div class="template-actions">
+                <a
+                  href="https://nekqadamovsino-spec.github.io/wedding-alekseykristina/"
+                  target="_blank"
+                  class="template-btn template-btn-light"
+                >
+                  Смотреть демо
+                </a>
+
+                <a
+                  href="https://t.me/mmosdecor?text=Здравствуйте!%20Хочу%20заказать%20шаблон%20Нежный%20минимализм"
+                  target="_blank"
+                  class="template-btn template-btn-gold"
+                >
+                  Заказать
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+
+        <article
+          class="template-card"
+          data-category="dark luxury"
+          data-title="Тёмная классика"
+        >
+          <div class="template-preview">
+            <img
+              src="images/invite-2.jpg"
+              alt="Тёмный свадебный сайт-приглашение"
+            >
+
+            <span class="template-badge">
+              Luxury
+            </span>
+          </div>
+
+          <div class="template-content">
+            <p class="template-style">
+              Тёмный · Luxury
+            </p>
+
+            <h2>Тёмная классика</h2>
+
+            <p class="template-description">
+              Контрастный премиальный дизайн
+              с золотыми деталями и атмосферными фото.
+            </p>
+
+            <ul class="template-features">
+              <li>Музыкальное сопровождение</li>
+              <li>Карта площадки</li>
+              <li>Дресс-код</li>
+              <li>Форма подтверждения</li>
+            </ul>
+
+            <div class="template-bottom">
+              <div class="template-price">
+                <span>Стоимость</span>
+                <b>от 2 500 ₽</b>
+              </div>
+
+              <div class="template-actions">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="template-btn template-btn-light"
+                >
+                  Смотреть демо
+                </a>
+
+                <a
+                  href="https://t.me/mmosdecor?text=Здравствуйте!%20Хочу%20заказать%20шаблон%20Тёмная%20классика"
+                  target="_blank"
+                  class="template-btn template-btn-gold"
+                >
+                  Заказать
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+
+        <article
+          class="template-card"
+          data-category="light luxury"
+          data-title="Премиум бежевый"
+        >
+          <div class="template-preview">
+            <img
+              src="images/invite-3.jpg"
+              alt="Бежевый свадебный сайт-приглашение"
+            >
+
+            <span class="template-badge">
+              Новинка
+            </span>
+          </div>
+
+          <div class="template-content">
+            <p class="template-style">
+              Светлый · Luxury
+            </p>
+
+            <h2>Премиум бежевый</h2>
+
+            <p class="template-description">
+              Спокойная премиальная палитра,
+              много воздуха и дорогая подача.
+            </p>
+
+            <ul class="template-features">
+              <li>Анимация блоков</li>
+              <li>Галерея</li>
+              <li>Расписание дня</li>
+              <li>Контакты координатора</li>
+            </ul>
+
+            <div class="template-bottom">
+              <div class="template-price">
+                <span>Стоимость</span>
+                <b>от 2 500 ₽</b>
+              </div>
+
+              <div class="template-actions">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="template-btn template-btn-light"
+                >
+                  Смотреть демо
+                </a>
+
+                <a
+                  href="https://t.me/mmosdecor?text=Здравствуйте!%20Хочу%20заказать%20шаблон%20Премиум%20бежевый"
+                  target="_blank"
+                  class="template-btn template-btn-gold"
+                >
+                  Заказать
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+
+        <article
+          class="template-card"
+          data-category="light minimal"
+          data-title="Белая классика"
+        >
+          <div class="template-preview">
+            <img
+              src="images/invite-4.jpg"
+              alt="Белый свадебный сайт-приглашение"
+            >
+          </div>
+
+          <div class="template-content">
+            <p class="template-style">
+              Светлый · Классика
+            </p>
+
+            <h2>Белая классика</h2>
+
+            <p class="template-description">
+              Универсальный светлый шаблон
+              для классической свадьбы.
+            </p>
+
+            <ul class="template-features">
+              <li>Обратный отсчёт</li>
+              <li>Адреса и карта</li>
+              <li>Дресс-код</li>
+              <li>Подтверждение участия</li>
+            </ul>
+
+            <div class="template-bottom">
+              <div class="template-price">
+                <span>Стоимость</span>
+                <b>от 2 000 ₽</b>
+              </div>
+
+              <div class="template-actions">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="template-btn template-btn-light"
+                >
+                  Смотреть демо
+                </a>
+
+                <a
+                  href="https://t.me/mmosdecor?text=Здравствуйте!%20Хочу%20заказать%20шаблон%20Белая%20классика"
+                  target="_blank"
+                  class="template-btn template-btn-gold"
+                >
+                  Заказать
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="catalogEmpty" class="catalog-empty">
+        По вашему запросу шаблоны не найдены.
+      </p>
+
+    </section>
+
+    <section class="catalog-cta">
+      <div>
+        <p class="eyebrow">индивидуальный дизайн</p>
+
+        <h2>Не нашли подходящий шаблон?</h2>
+
+        <p>
+          Создадим сайт-приглашение специально под стиль вашей свадьбы.
+        </p>
+      </div>
+
+      <a
+        href="https://t.me/mmosdecor"
+        target="_blank"
+        class="btn btn-gold"
+      >
+        Обсудить дизайн
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="catalog-footer">
+    <a href="index.html" class="catalog-footer-logo">
+      Mosdecor
+    </a>
+
+    <p>
+      Электронные приглашения для свадеб и мероприятий
+    </p>
+
+    <a href="https://t.me/mmosdecor" target="_blank">
+      @mmosdecor
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
