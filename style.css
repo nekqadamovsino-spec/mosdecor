@@ -497,3 +497,47 @@
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #f8f3eb;
+    padding: 25px;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 9999;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .nav a {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .burger {
+    cursor: pointer;
+    position: relative;
+    z-index: 10000;
+  }
+
+  .burger span {
+    transition: .3s;
+  }
+
+  .burger.active span:first-child {
+    transform: translateY(4px) rotate(45deg);
+  }
+
+  .burger.active span:last-child {
+    transform: translateY(-4px) rotate(-45deg);
+  }
+}
